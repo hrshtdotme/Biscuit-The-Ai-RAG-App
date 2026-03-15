@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <header className="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-white/10 bg-pearl-50/60 backdrop-blur-xl px-6 lg:px-24 py-8 transition-all">
+    <header className="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-white/10 bg-pearl-50/60 backdrop-blur-xl px-6 lg:px-24 py-4 transition-all">
       <div className="flex items-center gap-4">
         <div className="size-8 text-sand-900/90">
           <svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">

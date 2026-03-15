@@ -218,22 +218,22 @@ export default function Home() {
               <p className="text-stone-400 text-base md:text-xl font-light max-w-sm md:max-w-lg tracking-wide leading-relaxed">
                 Get early access today. No credit card required.
               </p>
-              {/* Email CTA — stacked card on mobile, pill row on desktop */}
-              <div className="w-full max-w-md mt-4">
-                <div className="flex flex-col gap-3 bg-white/5 backdrop-blur-md rounded-3xl md:rounded-full border border-white/10 p-3 shadow-2xl">
+              {/* Email CTA — horizontal pill: input left, button right */}
+              <div className="w-full max-w-[540px] mt-4">
+                <div className="flex flex-col sm:grid sm:grid-cols-[1fr_auto] sm:items-center gap-3 sm:gap-0 rounded-3xl sm:rounded-full border border-white/10 bg-white/[0.07] backdrop-blur-xl p-2 sm:p-1.5 shadow-2xl shadow-black/20">
                   <input
-                    className="w-full bg-transparent border-none outline-none text-white px-5 py-3 placeholder-stone-500 font-light text-sm tracking-wide rounded-2xl"
+                    className="bg-transparent border-none outline-none text-white placeholder-stone-500 font-light text-sm tracking-wide px-6 py-3 w-full"
                     placeholder="Enter your email"
                     type="email"
                   />
                   <a
                     href="/login"
-                    className="flex items-center justify-center w-full bg-white hover:bg-stone-100 text-stone-900 px-8 py-4 rounded-2xl md:rounded-full text-xs font-medium uppercase tracking-[0.15em] transition-all"
+                    className="inline-flex items-center justify-center bg-white text-stone-900 py-3.5 px-7 rounded-full text-[11px] font-medium uppercase tracking-[0.15em] whitespace-nowrap hover:bg-stone-100 transition-all duration-300 hover:shadow-lg"
                   >
                     Get Early Access
                   </a>
                 </div>
-                <p className="text-stone-600 text-[10px] mt-4 font-light tracking-[0.2em] uppercase">No credit card · Cancel anytime</p>
+                <p className="text-stone-600 text-[10px] mt-5 font-light tracking-[0.2em] uppercase">No credit card · Cancel anytime</p>
               </div>
             </div>
           </div>
